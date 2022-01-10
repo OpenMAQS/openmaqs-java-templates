@@ -1,0 +1,1 @@
+# maqs-java-templates
