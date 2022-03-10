@@ -1,3 +1,21 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+m
+=Extensions/Maqs.Appium.Template/pagemodels/BasePageModel.java,3\5\35068367bb70fe1b57ef18be355fe615f5347ced
+n
+>Extensions/Maqs.Appium.Template/pagemodels/LoginPageModel.java,9\a\9afa6d516d211f9417fc06652f4b7e0f1bc3aa1c
+m
+=Extensions/Maqs.Appium.Template/pagemodels/MainPageModel.java,e\9\e9389b7dc91c613df1b63fad1219b5913803b054
+d
+4Extensions/Maqs.Appium.Template/test/AppiumTest.java,c\0\c0efba3e269255d58bbe0a69f5e4fb0693f46db5
+ê
+`Extensions/Maqs.WebService.Template/src/main/java/com/company/automation/models/ProductJson.java,4\4\443916aa3451bb0ae7c2ad0d4352f4dcf54240cb
+ä
+ZExtensions/Maqs.Selenium.Template/src/test/java/com/company/automation/test/LoginTest.java,e\c\ecbcdc12cfd6fe9508004d5688ba5f61d8490528
+^
+.Extensions/Maqs.WebService.Template/.gitignore,6\a\6acc639801892bb3b25aeeb4901519d0175bc398
+ë
+aExtensions/Maqs.WebService.Template/src/test/java/com/company/automation/test/WebServiceTest.java,7\f\7f5d248c4ddda2ae02de9382c15f259da897eb9b
+ï
+eExtensions/Maqs.Selenium.Template/src/main/java/com/company/automation/pagemodels/LoginPageModel.java,c\3\c330b9e3870ec55a4237d0973ec1a249ffeb31e3
