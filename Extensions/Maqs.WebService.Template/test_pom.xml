@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.magenic.jmaqs.archetypes</groupId>
+    <artifactId>jmaqs-webservices-project</artifactId>
+    <version>${revision}</version>
+
+    <properties>
+        <revision>2.1.0-SNAPSHOT</revision>
+        <compiler.plugin.version>3.6.1</compiler.plugin.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <testng.version>6.14.3</testng.version>
+        <jmaq.version>2.1.0</jmaq.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler.plugin.version}</version>
+                <configuration>
+                    <release>8</release>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.magenic.jmaqs.webservices</groupId>
+            <artifactId>jmaqs-webservices-jdk8</artifactId>
+            <version>${jmaq.version}</version>
+        </dependency>
+    </dependencies>
+</project>
