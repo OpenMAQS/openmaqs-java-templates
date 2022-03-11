@@ -1,12 +1,4 @@
 
-m
-=Extensions/Maqs.Appium.Template/pagemodels/BasePageModel.java,3\5\35068367bb70fe1b57ef18be355fe615f5347ced
-n
->Extensions/Maqs.Appium.Template/pagemodels/LoginPageModel.java,9\a\9afa6d516d211f9417fc06652f4b7e0f1bc3aa1c
-m
-=Extensions/Maqs.Appium.Template/pagemodels/MainPageModel.java,e\9\e9389b7dc91c613df1b63fad1219b5913803b054
-d
-4Extensions/Maqs.Appium.Template/test/AppiumTest.java,c\0\c0efba3e269255d58bbe0a69f5e4fb0693f46db5
 ê
 `Extensions/Maqs.WebService.Template/src/main/java/com/company/automation/models/ProductJson.java,4\4\443916aa3451bb0ae7c2ad0d4352f4dcf54240cb
 ä
