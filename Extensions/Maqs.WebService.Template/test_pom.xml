@@ -3,16 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.magenic.jmaqs.archetypes</groupId>
-    <artifactId>jmaqs-webservices-project</artifactId>
+    <groupId>com.conginzantsoftvision.maqs.archetypes</groupId>
+    <artifactId>maqs-webservices-project</artifactId>
     <version>${revision}</version>
 
     <properties>
-        <revision>2.1.0-SNAPSHOT</revision>
+        <revision>3.0.0-SNAPSHOT</revision>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>6.14.3</testng.version>
-        <jmaq.version>2.1.0</jmaq.version>
+        <maq.version>2.1.0</maq.version>
     </properties>
 
     <build>
@@ -31,8 +31,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.magenic.jmaqs.webservices</groupId>
-            <artifactId>jmaqs-webservices-jdk8</artifactId>
+            <groupId>com.congnizantsoftvision.maqs.webservices</groupId>
+            <artifactId>maqs-webservices</artifactId>
             <version>${jmaq.version}</version>
         </dependency>
     </dependencies>

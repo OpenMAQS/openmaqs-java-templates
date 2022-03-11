@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 m
 =Extensions/Maqs.Appium.Template/pagemodels/BasePageModel.java,3\5\35068367bb70fe1b57ef18be355fe615f5347ced
 n

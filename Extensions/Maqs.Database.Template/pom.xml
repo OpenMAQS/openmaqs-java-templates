@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
-    <artifactId>maqs-selenium-template</artifactId>
+    <artifactId>maqs-cucumber-template</artifactId>
     <version>${revision}</version>
 
     <properties>

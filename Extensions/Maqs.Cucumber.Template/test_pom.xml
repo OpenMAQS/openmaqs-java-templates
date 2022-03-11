@@ -5,10 +5,11 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
-    <artifactId>maqs-selenium-template</artifactId>
-    <version>${revision}</version>
 
+    <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
+    <artifactId>maqs-selenium</artifactId>
+    <version>${revision}</version>
+    <name>MAQS Selenium Template</name>
     <properties>
         <revision>3.0.0-SNAPSHOT</revision>
         <selenium.version>3.141.59</selenium.version>
@@ -16,13 +17,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
         <maqs.version>2.1.0</maqs.version>
+        <sonar.projectKey>InstaCode_MAQS-Selenium-Archetype</sonar.projectKey>
+        <sonar.organization>instacode</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>bb3062c0bd984a6f712c378b2ab53d02cacfe741</sonar.login>
+        <sonar.coverage.jacoco.xmlReportPaths>./target/site/jacoco/jacoco.xml
+        </sonar.coverage.jacoco.xmlReportPaths>
         <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsofvision.maqs.selenium</groupId>
+            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
-            <version>${maqs.version}</version>
+            <version>3.0.0</version>
         </dependency>
     </dependencies>
     <build>
@@ -31,8 +38,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${compiler.plugin.version}</version>
                 <configuration>
+                    <release>11</release>
                     <encoding>UTF-8</encoding>
-                    <release>8</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -59,7 +66,7 @@
                                 <driver>
                                     <name>chromedriver</name>
                                     <customFileName>chromedriver</customFileName>
-                                    <version>83.0.4103.39</version>
+                                    <version>85.0.4183.83</version>
                                 </driver>
                             </drivers>
                         </configuration>

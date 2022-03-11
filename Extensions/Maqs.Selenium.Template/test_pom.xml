@@ -6,18 +6,18 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>com.magenic.jmaqs.archetypes</groupId>
-    <artifactId>jmaqs-selenium</artifactId>
+    <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
+    <artifactId>maqs-selenium</artifactId>
     <version>${revision}</version>
     <name>MAQS Selenium Template</name>
     <properties>
-        <revision>2.1.0-SNAPSHOT</revision>
+        <revision>3.0.0-SNAPSHOT</revision>
         <selenium.version>3.141.59</selenium.version>
         <webdriverextensions.version>3.2.0</webdriverextensions.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
-        <maqs.version>2.1.0</maqs.version>
-        <sonar.projectKey>InstaCode_MAQS-Selenium-Archetype</sonar.projectKey>
+        <maqs.version>3.0.0</maqs.version>
+        <sonar.projectKey>InstaCode_MAQS-Cucumber-Template</sonar.projectKey>
         <sonar.organization>instacode</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.login>bb3062c0bd984a6f712c378b2ab53d02cacfe741</sonar.login>
@@ -27,9 +27,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.magenic.jmaqs.selenium</groupId>
-            <artifactId>jmaqs-selenium</artifactId>
-            <version>2.1.0</version>
+            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
+            <artifactId>maqs-selenium</artifactId>
+            <version>3.0.0</version>
         </dependency>
     </dependencies>
     <build>
@@ -50,30 +50,6 @@
                     <parallel>methods</parallel>
                     <threadCount>6</threadCount>
                     <argLine>${argLine}</argLine>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.github.webdriverextensions</groupId>
-                <artifactId>webdriverextensions-maven-plugin</artifactId>
-                <version>${webdriverextensions.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>install-drivers</goal>
-                        </goals>
-                        <configuration>
-                            <drivers>
-                                <driver>
-                                    <name>chromedriver</name>
-                                    <customFileName>chromedriver</customFileName>
-                                    <version>85.0.4183.83</version>
-                                </driver>
-                            </drivers>
-                        </configuration>
-                    </execution>
-                </executions>
-                <configuration>
-                    <installationDirectory>${basedir}/src/test/resources/drivers</installationDirectory>
                 </configuration>
             </plugin>
         </plugins>

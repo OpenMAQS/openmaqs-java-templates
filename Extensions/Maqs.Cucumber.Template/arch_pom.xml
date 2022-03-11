@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cognizantsoftvision.maqs.templates</groupId>
-    <artifactId>maqs-selenium-templates</artifactId>
+    <artifactId>maqs-cucumber-templates</artifactId>
     <version>${revision}</version>
     <packaging>maven-archetype</packaging>
 
-    <name>MAQS Selenium Archetype</name>
-    <description>A starting template for utilizing the MAQS Automation Framework for Selenium UI Testing
+    <name>MAQS Cucumber Archetype</name>
+    <description>A starting template for utilizing the MAQS Automation Framework for Cucumber Testing
     </description>
     <url>https://github.com/CognizantOpenSource/maqs-java-templates</url>
     <inceptionYear>2017</inceptionYear>

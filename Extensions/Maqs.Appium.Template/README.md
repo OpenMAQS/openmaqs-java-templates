@@ -1,2 +1,2 @@
-# JMAQS-Appium-Archetype
-JMAQS Appium Archetype
+# MAQS-Appium-Archetype
+MAQS Appium Archetype
