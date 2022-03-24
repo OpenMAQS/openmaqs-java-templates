@@ -1,6 +1,6 @@
 package com.company.automation.pagemodels;
 
-import com.magenic.jmaqs.appium.AppiumTestObject;
+import com.cognizantsoftvision.maqs.appium.AppiumTestObject;
 import org.openqa.selenium.By;
 
 /**

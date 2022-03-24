@@ -1,12 +1,12 @@
 package com.company.automation.pagemodels;
 
-import com.magenic.jmaqs.selenium.BaseSeleniumPageModel;
-import com.magenic.jmaqs.selenium.LazyWebElement;
-import com.magenic.jmaqs.selenium.SeleniumConfig;
-import com.magenic.jmaqs.selenium.SeleniumTestObject;
-import com.magenic.jmaqs.selenium.factories.UIWaitFactory;
-import com.magenic.jmaqs.utilities.helper.exceptions.ExecutionFailedException;
-import com.magenic.jmaqs.utilities.helper.exceptions.TimeoutException;
+import com.cognizantsoftvision.maqs.selenium.BaseSeleniumPageModel;
+import com.cognizantsoftvision.maqs.selenium.LazyWebElement;
+import com.cognizantsoftvision.maqs.selenium.SeleniumConfig;
+import com.cognizantsoftvision.maqs.selenium.SeleniumTestObject;
+import com.cognizantsoftvision.maqs.selenium.factories.UIWaitFactory;
+import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
+import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 

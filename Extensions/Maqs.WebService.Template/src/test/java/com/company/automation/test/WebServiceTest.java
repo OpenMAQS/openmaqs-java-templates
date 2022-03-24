@@ -1,8 +1,8 @@
 package com.company.automation.test;
 
 import com.company.automation.models.ProductJson;
-import com.magenic.jmaqs.webservices.jdk8.BaseWebServiceTest;
-import com.magenic.jmaqs.webservices.jdk8.WebServiceUtilities;
+import com.cognizantsoftvision.maqs.webservices.jdk8.BaseWebServiceTest;
+import com.cognizantsoftvision.maqs.webservices.jdk8.WebServiceUtilities;
 import java.io.IOException;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.entity.ContentType;

@@ -1,0 +1,23 @@
+package com.company.automation.test;
+
+import com.cognizantsoftvision.maqs.database.BaseDatabaseTest;
+import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
+import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class DatabaseTest extends BaseDatabaseTest {
+
+  /**
+   * Get record using stored procedure.
+   */
+  @Test
+  public void GetRecordTestNUnit() {
+    // TODO: Update database connection configuration and add test code
+    // List<Object> result = this.getDatabaseDriver().query("SELECT * FROM information_schema.tables").toArray());
+    // Assert.assertEquals(1, result.size(), "Expected 1 state abbreviation to be returned.");
+
+    this.getLog().logMessage("Dummy test");
+  }
+}
+}

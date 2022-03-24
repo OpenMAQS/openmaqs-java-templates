@@ -1,7 +1,7 @@
 package com.company.automation.test;
 
-import com.magenic.jmaqs.appium.AppiumConfig;
-import com.magenic.jmaqs.appium.BaseAppiumTest;
+import com.cognizantsoftvision.maqs.appium.AppiumConfig;
+import com.cognizantsoftvision.maqs.appium.BaseAppiumTest;
 import com.company.automation.pagemodels.LoginPageModel;
 import com.company.automation.pagemodels.MainPageModel;
 import org.testng.Assert;

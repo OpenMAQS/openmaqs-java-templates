@@ -1,6 +1,6 @@
 package com.company.automation.pagemodels;
 
-import com.magenic.jmaqs.selenium.BaseSeleniumPageModel;
+import com.cognizantsoftvision.maqs.selenium.BaseSeleniumPageModel;
 import com.magenic.jmaqs.selenium.SeleniumConfig;
 import com.magenic.jmaqs.selenium.SeleniumTestObject;
 import com.magenic.jmaqs.selenium.factories.UIWaitFactory;

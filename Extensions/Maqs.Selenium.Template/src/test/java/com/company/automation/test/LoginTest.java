@@ -1,10 +1,10 @@
 package com.company.automation.test;
 
-import com.magenic.jmaqs.selenium.BaseSeleniumTest;
+import com.cognizantsoftvision.maqs.selenium.BaseSeleniumTest;
+import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
+import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
 import com.company.automation.pagemodels.HomePageModel;
 import com.company.automation.pagemodels.LoginPageModel;
-import com.magenic.jmaqs.utilities.helper.exceptions.ExecutionFailedException;
-import com.magenic.jmaqs.utilities.helper.exceptions.TimeoutException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
