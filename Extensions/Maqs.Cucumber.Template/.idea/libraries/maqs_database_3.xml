@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="maqs-database-3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/maqs-database-3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maqs-appium-3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maqs-base-3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/maqs-cucumber-3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

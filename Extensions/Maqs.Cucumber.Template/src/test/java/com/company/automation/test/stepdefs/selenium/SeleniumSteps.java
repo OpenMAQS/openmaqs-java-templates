@@ -2,10 +2,12 @@
  * Copyright 2022 (C) Cognizant SoftVision, All rights Reserved
  */
 
-package stepdefs.selenium;
+package com.company.automation.test.stepdefs.selenium;
 
 import com.cognizantsoftvision.maqs.cucumber.steps.BaseSeleniumStep;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class SeleniumSteps extends BaseSeleniumStep {
 
