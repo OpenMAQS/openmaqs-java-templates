@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.cognizantsoftvision.maqs.base:maqs-base:3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cognizantsoftvision/maqs/base/maqs-base/3/maqs-base-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cognizantsoftvision/maqs/base/maqs-base/3/maqs-base-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/cognizantsoftvision/maqs/base/maqs-base/3/maqs-base-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

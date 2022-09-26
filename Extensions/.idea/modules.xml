@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Extensions.iml" filepath="$PROJECT_DIR$/.idea/Extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqs.Appium.Template/maqs-appium-template.iml" filepath="$PROJECT_DIR$/Maqs.Appium.Template/maqs-appium-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqs.Cucumber.Template/maqs-cucumber-template.iml" filepath="$PROJECT_DIR$/Maqs.Cucumber.Template/maqs-cucumber-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqs.Database.Template/maqs-database-template.iml" filepath="$PROJECT_DIR$/Maqs.Database.Template/maqs-database-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqs.Playwright.Template/maqs-playwright-template.iml" filepath="$PROJECT_DIR$/Maqs.Playwright.Template/maqs-playwright-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqs.Selenium.Template/maqs-selenium-template.iml" filepath="$PROJECT_DIR$/Maqs.Selenium.Template/maqs-selenium-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maqs.WebService.Template/maqs-webservices-template.iml" filepath="$PROJECT_DIR$/Maqs.WebService.Template/maqs-webservices-template.iml" />
+    </modules>
+  </component>
+</project>
