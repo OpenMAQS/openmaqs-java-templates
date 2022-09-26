@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
- * The type Web service test.
+ * The Web service test.
  */
 public class WebServiceTest extends BaseWebServiceTest {
 
@@ -18,7 +18,10 @@ public class WebServiceTest extends BaseWebServiceTest {
    */
   private static final String baseUrl = WebServiceConfig.getWebServiceUri();
 
-  WebServiceDriver webServiceDriver = new WebServiceDriver(HttpClientFactory.getDefaultClient());
+  /**
+   * Object holder for the web service driver.
+   */
+  private final WebServiceDriver webServiceDriver = new WebServiceDriver(HttpClientFactory.getDefaultClient());
 
   /**
    * Gets json deserialized Test.

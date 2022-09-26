@@ -8,12 +8,12 @@
     <version>${revision}</version>
 
     <properties>
-        <revision>3.0.0-SNAPSHOT</revision>
+        <maqs.version>3</maqs.version>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.web.version>5.3.23</spring.web.version>
         <testng.version>7.6.1</testng.version>
-        <maqs.version>3</maqs.version>
-        <jackson.version>2.13.3</jackson.version>
+        <jackson.version>2.13.4</jackson.version>
     </properties>
     
     <build>
@@ -49,6 +49,11 @@
             <artifactId>jackson-annotations</artifactId>
             <version>${jackson.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.web.version}</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
