@@ -3,8 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.cognizantsoftvision.maqs.templates</groupId>
-    <artifactId>maqs-webservices-template</artifactId>
+    <artifactId>maqs-playwright-template</artifactId>
     <version>${revision}</version>
 
     <properties>
@@ -13,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>7.6.1</testng.version>
         <maqs.version>3</maqs.version>
-        <jackson.version>2.13.3</jackson.version>
+        <jackson.version>2.13.4</jackson.version>
     </properties>
     
     <build>
@@ -34,8 +35,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.webservices</groupId>
-            <artifactId>maqs-webservices</artifactId>
+            <groupId>com.cognizantsoftvision.maqs.playwright</groupId>
+            <artifactId>maqs-playwright</artifactId>
             <version>${maqs.version}</version>
         </dependency>
         <dependency>
@@ -54,7 +55,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

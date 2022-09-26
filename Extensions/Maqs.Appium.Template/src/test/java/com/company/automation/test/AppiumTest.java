@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
- * Created by jasonedstrom on 6/23/17.
+ * Appium tests.
  */
 public class AppiumTest extends BaseAppiumTest {
 
@@ -27,7 +27,7 @@ public class AppiumTest extends BaseAppiumTest {
   @Test
   public void invalidLoginTest() {
     String expectedError = "Wrong username or password";
-    LoginPageModel page = new LoginPageModel(this.getAppiumTestObject());
+    LoginPageModel page = new LoginPageModel(this.getTestObject());
     page.loginWithInvalidCredentials("Not", "Valid");
     String errorMessage = page.getErrorMessage();
     Assert.assertEquals(errorMessage, expectedError, "Expected error message to be equal");
@@ -40,7 +40,7 @@ public class AppiumTest extends BaseAppiumTest {
   public void validLoginTest() {
     String username = "Magenic";
     String password = "MAQS";
-    LoginPageModel page = new LoginPageModel(this.getAppiumTestObject());
+    LoginPageModel page = new LoginPageModel(this.getTestObject());
     MainPageModel mainPageModel = page.loginWithValidCredentials(username, password);
     String loggedInPassword = mainPageModel.getPasswordValueText();
     String loggedInUsername = mainPageModel.getUsernameValueText();

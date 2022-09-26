@@ -55,11 +55,9 @@ public class LoginPageModel extends BasePageModel {
    * @param password the password
    */
   public void loginWithInvalidCredentials(String username, String password) {
-
     enterCredentials(username, password);
     this.appiumTestObject.getAppiumWait().waitForVisibleElement(loginButton).click();
     this.appiumTestObject.getAppiumWait().waitForVisibleElement(errorMessage);
-
   }
 
   /**
@@ -70,10 +68,8 @@ public class LoginPageModel extends BasePageModel {
    * @return the main page model
    */
   public MainPageModel loginWithValidCredentials(String username, String password) {
-
     enterCredentials(username, password);
     this.appiumTestObject.getAppiumWait().waitForVisibleElement(loginButton).click();
-
     return new MainPageModel(this.appiumTestObject);
   }
 

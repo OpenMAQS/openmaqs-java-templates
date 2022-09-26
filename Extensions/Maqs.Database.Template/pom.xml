@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
-    <artifactId>maqs-cucumber-template</artifactId>
+    <artifactId>maqs-database-template</artifactId>
     <version>${revision}</version>
 
     <properties>
@@ -20,7 +20,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsofvision.maqs.database</groupId>
+            <groupId>com.cognizantsoftvision.maqs.database</groupId>
             <artifactId>maqs-database</artifactId>
             <version>${maqs.version}</version>
         </dependency>

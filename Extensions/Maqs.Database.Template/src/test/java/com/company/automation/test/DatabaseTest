@@ -17,6 +17,6 @@ public class DatabaseTest extends BaseDatabaseTest {
     // List<Object> result = this.getDatabaseDriver().query("SELECT * FROM information_schema.tables").toArray());
     // Assert.assertEquals(1, result.size(), "Expected 1 state abbreviation to be returned.");
 
-    this.getLog().logMessage("Dummy test");
+    this.getLogger().logMessage("Dummy test");
   }
 }

@@ -1,105 +1,64 @@
 package com.company.automation.models;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import java.math.BigDecimal;
 
 /**
- * The type Product json.
+ * The Product json.
  */
+@JsonPropertyOrder({"Id", "Name", "Category", "Price"})
 public class ProductJson {
 
-  /**
-   * int ID
-   */
-  @JsonProperty("Id")
+  @JacksonXmlProperty(isAttribute = true)
+  private final String xmlns = "http://schemas.datacontract.org/2004/07/MainTestService.Models";
+
+  @JsonAlias({"Id", "id"})
+  @JacksonXmlProperty(localName = "Id")
   private int id;
 
-  /**
-   * String name
-   */
-  @JsonProperty("Name")
+  @JacksonXmlProperty(localName = "Name")
+  @JsonAlias({"Name", "name"})
   private String name;
 
-  /**
-   * String category
-   */
-  @JsonProperty("Category")
+  @JacksonXmlProperty(localName = "Category")
+  @JsonAlias({"Category", "category"})
   private String category;
 
-  /**
-   * Integer price
-   */
-  @JsonProperty("Price")
-  private Integer price;
+  @JacksonXmlProperty(localName = "Price")
+  @JsonAlias({"Price", "price"})
+  private BigDecimal price;
 
-  /**
-   * Gets id.
-   *
-   * @return the id
-   */
-  public int getId() {
-    return id;
-  }
-
-  /**
-   * Sets id.
-   *
-   * @param id the id
-   */
   public void setId(int id) {
     this.id = id;
   }
 
-  /**
-   * Gets name.
-   *
-   * @return the name
-   */
-  public String getName() {
-    return name;
+  public int getId() {
+    return id;
   }
 
-  /**
-   * Sets name.
-   *
-   * @param name the name
-   */
   public void setName(String name) {
     this.name = name;
   }
 
-  /**
-   * Gets category.
-   *
-   * @return the category
-   */
-  public String getCategory() {
-    return category;
+  public String getName() {
+    return name;
   }
 
-  /**
-   * Sets category.
-   *
-   * @param category the category
-   */
   public void setCategory(String category) {
     this.category = category;
   }
 
-  /**
-   * Gets price.
-   *
-   * @return the price
-   */
-  public Integer getPrice() {
+  public String getCategory() {
+    return category;
+  }
+
+  public BigDecimal getPrice() {
     return price;
   }
 
-  /**
-   * Sets price.
-   *
-   * @param price the price
-   */
-  public void setPrice(Integer price) {
+  public void setPrice(BigDecimal price) {
     this.price = price;
   }
 }

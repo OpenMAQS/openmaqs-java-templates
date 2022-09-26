@@ -1,14 +1,10 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.webservices.WebServiceUtilities;
+import com.cognizantsoftvision.maqs.utilities.helper.TestCategories;
+import com.cognizantsoftvision.maqs.webservices.*;
 import com.company.automation.models.ProductJson;
-import com.cognizantsoftvision.maqs.webservices;
-import com.cognizantsoftvision.maqs.webservices;
 import java.io.IOException;
 import java.net.http.HttpResponse;
-
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.entity.ContentType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,25 +14,33 @@ import org.testng.annotations.Test;
 public class WebServiceTest extends BaseWebServiceTest {
 
   /**
+   * String to hold the URL.
+   */
+  private static final String baseUrl = WebServiceConfig.getWebServiceUri();
+
+  WebServiceDriver webServiceDriver = new WebServiceDriver(HttpClientFactory.getDefaultClient());
+
+  /**
    * Gets json deserialized Test.
    */
   @Test
-  public void getJsonDeserialized() {
-    HttpResponse result = null;
-    try {
-      result = this.getTestObject().getWebServiceDriver()
-          .getContent("/api/XML_JSON/GetProduct/1", ContentType.APPLICATION_JSON, false);
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
+  public void getJsonDeserialized() throws IOException, InterruptedException {
+    HttpResponse<String> response = webServiceDriver.get(
+        baseUrl + "/api/XML_JSON/GetProduct/2", MediaType.APP_JSON, true);
+    ProductJson products = WebServiceUtilities.getResponseBody(response, MediaType.APP_JSON, ProductJson.class);
+    Assert.assertEquals(products.getName(), "Yo-yo", "Expected 3 products to be returned");
+  }
 
-
-    ProductJson productJson = null;
-    try {
-      productJson = WebServiceUtilities.deserializeJson(result, ProductJson.class);
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-    Assert.assertEquals(productJson.getId(), 1, "Expected to get product 1");
+  /**
+   * Test XML Get deserialize a single product.
+   * @throws IOException if exception is thrown
+   * @throws InterruptedException if exception is thrown
+   */
+  @Test(groups = TestCategories.WEB_SERVICE)
+  public void getProductXmlDeserialize() throws IOException, InterruptedException {
+    HttpResponse<String> response = webServiceDriver.get(
+        baseUrl + "/api/XML_JSON/GetProduct/2", MediaType.APP_XML, true);
+    ProductJson products = WebServiceUtilities.getResponseBody(response, MediaType.APP_XML, ProductJson.class);
+    Assert.assertEquals(products.getName(), "Yo-yo", "Expected Yo-yo to be returned");
   }
 }
