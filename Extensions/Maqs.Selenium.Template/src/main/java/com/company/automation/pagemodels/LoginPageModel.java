@@ -1,9 +1,9 @@
 package com.company.automation.pagemodels;
 
 import com.cognizantsoftvision.maqs.selenium.BaseSeleniumPageModel;
+import com.cognizantsoftvision.maqs.selenium.ISeleniumTestObject;
 import com.cognizantsoftvision.maqs.selenium.LazyWebElement;
 import com.cognizantsoftvision.maqs.selenium.SeleniumConfig;
-import com.cognizantsoftvision.maqs.selenium.SeleniumTestObject;
 import com.cognizantsoftvision.maqs.selenium.factories.UIWaitFactory;
 import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
 import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
@@ -24,35 +24,36 @@ public class LoginPageModel extends BaseSeleniumPageModel {
    * Username Field Selector.
    */
   private static final By USERNAME_INPUT = By.cssSelector("#UserName");
-  private LazyWebElement usernameInput = getLazyElement( USERNAME_INPUT,
+  private final LazyWebElement usernameInput = getLazyElement( USERNAME_INPUT,
       "Username Text Field");
 
   /**
    * Password Field Selector.
    */
   private static final By PASSWORD_INPUT = By.cssSelector("#Password");
-  private LazyWebElement passwordInput = getLazyElement(PASSWORD_INPUT,
+  private final LazyWebElement passwordInput = getLazyElement(PASSWORD_INPUT,
       "Password Text Field");
 
   /**
    * Login Error Message Selector.
    */
   private static final By LOGIN_ERROR = By.cssSelector("#LoginError");
-  private LazyWebElement loginErrorMessage = getLazyElement(LOGIN_ERROR,
-      "Login Error Message");
+
+  private final LazyWebElement loginErrorMessage = getLazyElement(LOGIN_ERROR, "Login Error Message");
 
   /**
    * Login Button Selector.
    */
   private static final By LOGIN_BUTTON = By.cssSelector("#Login");
-  private LazyWebElement loginButton = getLazyElement(LOGIN_BUTTON, "Login Button");
+
+  private final LazyWebElement loginButton = getLazyElement(LOGIN_BUTTON, "Login Button");
 
   /**
    * Login Page Model Constructor.
    *
    * @param testObject The WebDriver object to use
    */
-  public LoginPageModel(SeleniumTestObject testObject) {
+  public LoginPageModel(ISeleniumTestObject testObject) {
     super(testObject);
   }
 
@@ -67,7 +68,7 @@ public class LoginPageModel extends BaseSeleniumPageModel {
   /**
    * Login with valid credentials.
    *
-   * @param userName the user name
+   * @param userName the username
    * @param password the password
    * @return the home page model
    */

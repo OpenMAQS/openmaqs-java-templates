@@ -1,9 +1,12 @@
 package com.company.automation.test;
 
+import com.cognizantsoftvision.maqs.webservices.WebServiceUtilities;
 import com.company.automation.models.ProductJson;
-import com.cognizantsoftvision.maqs.webservices.jdk8.BaseWebServiceTest;
-import com.cognizantsoftvision.maqs.webservices.jdk8.WebServiceUtilities;
+import com.cognizantsoftvision.maqs.webservices;
+import com.cognizantsoftvision.maqs.webservices;
 import java.io.IOException;
+import java.net.http.HttpResponse;
+
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.entity.ContentType;
 import org.testng.Assert;
@@ -19,7 +22,7 @@ public class WebServiceTest extends BaseWebServiceTest {
    */
   @Test
   public void getJsonDeserialized() {
-    CloseableHttpResponse result = null;
+    HttpResponse result = null;
     try {
       result = this.getTestObject().getWebServiceDriver()
           .getContent("/api/XML_JSON/GetProduct/1", ContentType.APPLICATION_JSON, false);

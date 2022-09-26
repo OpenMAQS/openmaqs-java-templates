@@ -1,9 +1,9 @@
 package com.company.automation.pagemodels;
 
 import com.cognizantsoftvision.maqs.selenium.BaseSeleniumPageModel;
-import com.magenic.jmaqs.selenium.SeleniumConfig;
-import com.magenic.jmaqs.selenium.SeleniumTestObject;
-import com.magenic.jmaqs.selenium.factories.UIWaitFactory;
+import com.cognizantsoftvision.maqs.selenium.ISeleniumTestObject;
+import com.cognizantsoftvision.maqs.selenium.SeleniumConfig;
+import com.cognizantsoftvision.maqs.selenium.factories.UIWaitFactory;
 import org.openqa.selenium.By;
 
 /**
@@ -26,7 +26,7 @@ public class HomePageModel extends BaseSeleniumPageModel {
    *
    * @param testObject the test object
    */
-  public HomePageModel(SeleniumTestObject testObject) {
+  public HomePageModel(ISeleniumTestObject testObject) {
     super(testObject);
   }
 
@@ -38,5 +38,4 @@ public class HomePageModel extends BaseSeleniumPageModel {
   public boolean isPageLoaded() {
     return UIWaitFactory.getWaitDriver(getWebDriver()).waitForVisibleElement(WELCOME_MESSAGE).isDisplayed();
   }
-
 }

@@ -15,13 +15,13 @@
         <webdriverextensions.version>3.2.0</webdriverextensions.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
-        <maqs.version>2.1.0</maqs.version>
+        <maqs.version>3</maqs.version>
         <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsofvision.maqs.selenium</groupId>
-            <artifactId>maqs-selenium</artifactId>
+            <groupId>com.cognizantsofvision.maqs.database</groupId>
+            <artifactId>maqs-database</artifactId>
             <version>${maqs.version}</version>
         </dependency>
     </dependencies>
@@ -43,30 +43,6 @@
                     <parallel>methods</parallel>
                     <threadCount>6</threadCount>
                     <argLine>${argLine}</argLine>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.github.webdriverextensions</groupId>
-                <artifactId>webdriverextensions-maven-plugin</artifactId>
-                <version>${webdriverextensions.version}</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>install-drivers</goal>
-                        </goals>
-                        <configuration>
-                            <drivers>
-                                <driver>
-                                    <name>chromedriver</name>
-                                    <customFileName>chromedriver</customFileName>
-                                    <version>83.0.4103.39</version>
-                                </driver>
-                            </drivers>
-                        </configuration>
-                    </execution>
-                </executions>
-                <configuration>
-                    <installationDirectory>${basedir}/src/test/resources/drivers</installationDirectory>
                 </configuration>
             </plugin>
         </plugins>

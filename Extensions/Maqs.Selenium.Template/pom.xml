@@ -15,14 +15,27 @@
         <webdriverextensions.version>3.2.0</webdriverextensions.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
-        <maqs.version>2.1.0</maqs.version>
+        <maqs.version>3</maqs.version>
         <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsofvision.maqs.selenium</groupId>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.6.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
+            <artifactId>maqs-utilities</artifactId>
+            <version>${maqs.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
             <version>${maqs.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>

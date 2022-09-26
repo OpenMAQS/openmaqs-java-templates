@@ -25,8 +25,7 @@ public class AppiumTest extends BaseAppiumTest {
    * Invalid login test.
    */
   @Test
-  public void invalidLoginTest()
-  {
+  public void invalidLoginTest() {
     String expectedError = "Wrong username or password";
     LoginPageModel page = new LoginPageModel(this.getAppiumTestObject());
     page.loginWithInvalidCredentials("Not", "Valid");
@@ -38,8 +37,7 @@ public class AppiumTest extends BaseAppiumTest {
    * Valid login test.
    */
   @Test
-  public void validLoginTest()
-  {
+  public void validLoginTest() {
     String username = "Magenic";
     String password = "MAQS";
     LoginPageModel page = new LoginPageModel(this.getAppiumTestObject());

@@ -11,22 +11,22 @@ public class LoginPageModel extends BasePageModel {
   /**
    * Field usernameField
    */
-  private static By usernameField = By.id("email");
+  private static final By usernameField = By.id("email");
 
   /**
    * Field passwordField
    */
-  private static By passwordField = By.id("password");
+  private static final By passwordField = By.id("password");
 
   /**
    * Field loginButton
    */
-  private static By loginButton = By.id("email_sign_in_button");
+  private static final By loginButton = By.id("email_sign_in_button");
 
   /**
    * Field errorMessage
    */
-  private static By errorMessage = By.id("snackbar_text");
+  private static final By errorMessage = By.id("snackbar_text");
 
   /**
    * Instantiates a new Login page model.

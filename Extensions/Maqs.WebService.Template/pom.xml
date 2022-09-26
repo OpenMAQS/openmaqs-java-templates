@@ -11,8 +11,9 @@
         <revision>3.0.0-SNAPSHOT</revision>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <testng.version>6.14.3</testng.version>
-        <maq.version>2.1.0</maq.version>
+        <testng.version>7.6.1</testng.version>
+        <maqs.version>3</maqs.version>
+        <jackson.version>2.13.3</jackson.version>
     </properties>
     
     <build>
@@ -34,6 +35,24 @@
             <groupId>com.cognizantsoftvision.maqs.webservices</groupId>
             <artifactId>maqs-webservices</artifactId>
             <version>${maqs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
+            <artifactId>maqs-utilities</artifactId>
+            <version>${maqs.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

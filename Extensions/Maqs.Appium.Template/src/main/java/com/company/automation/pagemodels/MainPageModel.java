@@ -11,12 +11,12 @@ public class MainPageModel extends BasePageModel {
   /**
    * Username label value
    */
-  private static By loginUsernameValue = By.id("usernameView");
+  private static final By loginUsernameValue = By.id("usernameView");
 
   /**
    * Password label value
    */
-  private static By loginPasswordValue = By.id("passView");
+  private static final By loginPasswordValue = By.id("passView");
 
   /**
    * Instantiates a new Main page model.
