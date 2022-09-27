@@ -28,14 +28,37 @@
         <LogType>HTML</LogType>-->
         <LogType>TXT</LogType>
 
-        <!-- Log file path - Defaults to build location if no value is defined
-        <FileLoggerPath>C:\\Frameworks\\</FileLoggerPath> -->
+        <!-- Log file path - Defaults to build location if no value is defined -->
+        <FileLoggerPath>./target/logs</FileLoggerPath>
     </GlobalMaqs>
-    <WebServiceMaqs>
-        <!-- Web service root -->
-        <WebServiceUri>http://magenicautomation.azurewebsites.net</WebServiceUri>
+    <PlaywrightMaqs>
+        <!--Default base web url-->
+        <WebBase>https://cognizantopensource.github.io/maqs-dotnet-templates/Static/</WebBase>
 
-        <!-- Time-out in milliseconds -->
-        <WebServiceTimeout>10000</WebServiceTimeout>
-    </WebServiceMaqs>
+        <!--Local browser settings
+        <add key="Browser" value="Chrome"/>
+        <add key="Browser" value="Chromium"/>
+        <add key="Browser" value="Firefox"/>
+        <add key="Browser" value="Edge"/>
+        <add key="Browser" value="Webkit"/>-->
+        <Browser>Chrome</Browser>
+        <Headless>NO</Headless>
+
+        <!--Playwright specific timeouts in milliseconds-->
+        <Timeout>20000</Timeout>
+        <CommandTimeout>200000</CommandTimeout>
+
+        <!--Browser Resize settings - The Default is 1280x720
+        <add key="BrowserSize" value="DEFAULT" />-->
+        <BrowserSize>DEFAULT</BrowserSize>
+
+        <!--Playwright specific logging options-->
+        <CaptureVideo>NO</CaptureVideo>
+        <CaptureScreenshots>NO</CaptureScreenshots>
+        <CaptureSnapshots>YES</CaptureSnapshots>
+
+        <!--Proxy  settings-->
+        <UseProxy>No</UseProxy>
+        <ProxyAddress>http://localhost:8002</ProxyAddress>
+    </PlaywrightMaqs>
 </configuration>
