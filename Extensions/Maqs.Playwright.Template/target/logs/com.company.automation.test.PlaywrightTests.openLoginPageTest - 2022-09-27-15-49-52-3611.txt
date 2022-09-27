@@ -1,0 +1,18 @@
+
+1664293792364
+INFORMATION:	Setup test object for com.company.automation.test.PlaywrightTests.openLoginPageTest
+
+1664293794967
+INFORMATION:	Driver: com.microsoft.playwright.impl.BrowserImpl@2974f221
+
+1664293797380
+SUCCESS:	Test Passed
+
+1664293797381
+VERBOSE:	Start dispose
+
+1664293797381
+VERBOSE:	Start dispose driver
+
+1664293797392
+VERBOSE:	End dispose

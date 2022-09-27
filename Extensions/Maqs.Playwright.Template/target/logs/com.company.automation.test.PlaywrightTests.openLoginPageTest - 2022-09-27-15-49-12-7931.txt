@@ -1,0 +1,18 @@
+
+1664293752795
+INFORMATION:	Setup test object for com.company.automation.test.PlaywrightTests.openLoginPageTest
+
+1664293752889
+INFORMATION:	Failed setup driver: java.lang.RuntimeException: Failed to create driver
+
+1664293752894
+ERROR:	Test Failed
+
+1664293752895
+VERBOSE:	Start dispose
+
+1664293752896
+VERBOSE:	Start dispose driver
+
+1664293752897
+VERBOSE:	End dispose

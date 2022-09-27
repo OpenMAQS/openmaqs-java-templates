@@ -1,0 +1,12 @@
+
+1664296136225
+INFORMATION:	Setup test object for com.company.automation.test.WebServiceTest.getProductXmlDeserialize
+
+1664296136350
+SUCCESS:	Test Passed
+
+1664296136351
+VERBOSE:	Start dispose
+
+1664296136352
+VERBOSE:	End dispose

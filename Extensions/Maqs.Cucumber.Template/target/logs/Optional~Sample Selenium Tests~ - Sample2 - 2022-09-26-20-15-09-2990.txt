@@ -1,0 +1,3 @@
+
+1664223309395
+ERROR:	java.lang.NoSuchMethodError: 'org.openqa.selenium.chromium.ChromiumOptions org.openqa.selenium.chrome.ChromeOptions.addArguments(java.lang.String[])'

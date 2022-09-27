@@ -1,0 +1,12 @@
+
+1664296135717
+INFORMATION:	Setup test object for com.company.automation.test.WebServiceTest.getJsonDeserialized
+
+1664296136216
+SUCCESS:	Test Passed
+
+1664296136217
+VERBOSE:	Start dispose
+
+1664296136217
+VERBOSE:	End dispose

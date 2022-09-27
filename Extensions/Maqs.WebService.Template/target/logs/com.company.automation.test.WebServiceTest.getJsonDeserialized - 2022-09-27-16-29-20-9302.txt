@@ -1,0 +1,12 @@
+
+1664296160938
+INFORMATION:	Setup test object for com.company.automation.test.WebServiceTest.getJsonDeserialized
+
+1664296161090
+ERROR:	Test Failed
+
+1664296161090
+VERBOSE:	Start dispose
+
+1664296161091
+VERBOSE:	End dispose

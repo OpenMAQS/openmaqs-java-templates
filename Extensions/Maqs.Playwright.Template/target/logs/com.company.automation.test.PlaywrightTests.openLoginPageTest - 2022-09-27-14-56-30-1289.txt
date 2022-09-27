@@ -1,0 +1,18 @@
+
+1664290590134
+INFORMATION:	Setup test object for com.company.automation.test.PlaywrightTests.openLoginPageTest
+
+1664290592020
+INFORMATION:	Failed setup driver: java.lang.NumberFormatException: Length and Width must be a string that is an integer value: 400x400
+
+1664290592048
+ERROR:	Test Failed
+
+1664290592053
+VERBOSE:	Start dispose
+
+1664290592060
+VERBOSE:	Start dispose driver
+
+1664290592063
+VERBOSE:	End dispose
