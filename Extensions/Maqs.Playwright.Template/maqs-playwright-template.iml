@@ -13,11 +13,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: com.cognizantsoftvision.maqs.playwright:maqs-playwright:3" level="project" />
     <orderEntry type="library" name="Maven: com.cognizantsoftvision.maqs.base:maqs-base:3" level="project" />
-    <orderEntry type="library" name="Maven: com.microsoft.playwright:playwright:1.21.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
-    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.microsoft.playwright:driver:1.21.0" level="project" />
-    <orderEntry type="library" name="Maven: com.microsoft.playwright:driver-bundle:1.21.0" level="project" />
     <orderEntry type="library" name="Maven: com.cognizantsoftvision.maqs.utilities:maqs-utilities:3" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-configuration2:2.7" level="project" />
@@ -26,6 +21,11 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-text:1.9" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.microsoft.playwright:playwright:1.21.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.microsoft.playwright:driver:1.21.0" level="project" />
+    <orderEntry type="library" name="Maven: com.microsoft.playwright:driver-bundle:1.21.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.4" level="project" />
     <orderEntry type="library" name="Maven: org.testng:testng:7.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />

@@ -6,9 +6,9 @@
         <option value="$PROJECT_DIR$/Maqs.Appium.Template/pom.xml" />
         <option value="$PROJECT_DIR$/Maqs.Database.Template/pom.xml" />
         <option value="$PROJECT_DIR$/Maqs.Selenium.Template/pom.xml" />
-        <option value="$PROJECT_DIR$/Maqs.WebService.Template/pom.xml" />
         <option value="$PROJECT_DIR$/Maqs.Playwright.Template/pom.xml" />
         <option value="$PROJECT_DIR$/Maqs.Cucumber.Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Maqs.WebService.Template/pom.xml" />
       </list>
     </option>
   </component>

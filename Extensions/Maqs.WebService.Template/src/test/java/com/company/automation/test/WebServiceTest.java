@@ -1,6 +1,5 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.utilities.helper.TestCategories;
 import com.cognizantsoftvision.maqs.webservices.*;
 import com.company.automation.models.ProductJson;
 import java.io.IOException;
@@ -39,7 +38,7 @@ public class WebServiceTest extends BaseWebServiceTest {
    * @throws IOException if exception is thrown
    * @throws InterruptedException if exception is thrown
    */
-  @Test(groups = TestCategories.WEB_SERVICE)
+  @Test
   public void getProductXmlDeserialize() throws IOException, InterruptedException {
     HttpResponse<String> response = webServiceDriver.get(
         baseUrl + "/api/XML_JSON/GetProduct/2", MediaType.APP_XML, true);
