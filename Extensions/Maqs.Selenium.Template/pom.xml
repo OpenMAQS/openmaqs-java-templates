@@ -11,24 +11,19 @@
 
     <properties>
         <revision>3.0.0-SNAPSHOT</revision>
-        <selenium.version>4.1.1</selenium.version>
-        <webdriverextensions.version>3.2.0</webdriverextensions.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <compiler.plugin.version>3.8.1</compiler.plugin.version>
         <maqs.version>3</maqs.version>
+
+        <selenium.version>4.1.1</selenium.version>
+        <testng.version>7.6.1</testng.version>
+
+        <compiler.plugin.version>3.8.1</compiler.plugin.version>
         <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.6.1</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
-            <artifactId>maqs-utilities</artifactId>
-            <version>${maqs.version}</version>
+            <version>${testng.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

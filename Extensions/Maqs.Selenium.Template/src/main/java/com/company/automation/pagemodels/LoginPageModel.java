@@ -83,7 +83,7 @@ public class LoginPageModel extends BaseSeleniumPageModel {
   /**
    * Login with invalid credentials.
    *
-   * @param userName the user name
+   * @param userName the username
    * @param password the password
    * @return the boolean
    */

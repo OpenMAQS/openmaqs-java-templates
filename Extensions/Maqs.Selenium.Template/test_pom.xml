@@ -10,14 +10,17 @@
     <artifactId>maqs-selenium</artifactId>
     <version>${revision}</version>
     <name>MAQS Selenium Template</name>
+
     <properties>
         <revision>3.0.0-SNAPSHOT</revision>
+        <maqs.version>3</maqs.version>
+
         <selenium.version>4.1.1</selenium.version>
         <webdriverextensions.version>3.2.0</webdriverextensions.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
-        <maqs.version>3.0.0</maqs.version>
-        <sonar.projectKey>InstaCode_MAQS-Cucumber-Template</sonar.projectKey>
+
+        <sonar.projectKey>InstaCode_MAQS-Selenium-Template</sonar.projectKey>
         <sonar.organization>instacode</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.login>bb3062c0bd984a6f712c378b2ab53d02cacfe741</sonar.login>
@@ -29,7 +32,7 @@
         <dependency>
             <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
-            <version>3.0.0</version>
+            <version>3</version>
         </dependency>
     </dependencies>
     <build>
