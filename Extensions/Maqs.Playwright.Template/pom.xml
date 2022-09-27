@@ -10,10 +10,9 @@
 
     <properties>
         <revision>3.0.0-SNAPSHOT</revision>
-        <compiler.plugin.version>3.6.1</compiler.plugin.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <testng.version>7.6.1</testng.version>
         <maqs.version>3</maqs.version>
+        <compiler.plugin.version>3.6.1</compiler.plugin.version>
+        <testng.version>7.6.1</testng.version>
         <jackson.version>2.13.4</jackson.version>
     </properties>
     
@@ -37,11 +36,6 @@
         <dependency>
             <groupId>com.cognizantsoftvision.maqs.playwright</groupId>
             <artifactId>maqs-playwright</artifactId>
-            <version>${maqs.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
-            <artifactId>maqs-utilities</artifactId>
             <version>${maqs.version}</version>
             <scope>compile</scope>
         </dependency>

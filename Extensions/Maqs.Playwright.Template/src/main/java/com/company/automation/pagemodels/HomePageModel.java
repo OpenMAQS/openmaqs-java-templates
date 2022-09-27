@@ -2,12 +2,15 @@ package com.company.automation.pagemodels;
 
 import com.cognizantsoftvision.maqs.playwright.BasePlaywrightPageModel;
 import com.cognizantsoftvision.maqs.playwright.IPlaywrightTestObject;
+import com.cognizantsoftvision.maqs.playwright.PlaywrightConfig;
 import com.cognizantsoftvision.maqs.playwright.PlaywrightSyncElement;
 
 /**
  * The type Home page model.
  */
 public class HomePageModel extends BasePlaywrightPageModel {
+
+  private static final String HOME_PAGE_URL = PlaywrightConfig.getWebBase() + "Training3/HomePage.html";
 
   /**
    * Instantiates a new Home page model.
@@ -34,5 +37,9 @@ public class HomePageModel extends BasePlaywrightPageModel {
   @Override
   public boolean isPageLoaded() {
     return this.welcomeMessage().isEventuallyVisible();
+  }
+
+  public boolean checkURL() {
+    return this.getPageDriver().getUrl().equals(HOME_PAGE_URL);
   }
 }

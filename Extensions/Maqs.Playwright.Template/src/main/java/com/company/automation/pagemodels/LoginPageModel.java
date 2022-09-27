@@ -22,7 +22,7 @@ public class LoginPageModel extends BasePlaywrightPageModel {
   /**
    * Gets page url
    */
-  public static final String URL = PlaywrightConfig.getWebBase() + "Static/Training3/LoginPage.html";
+  public static final String URL = PlaywrightConfig.getWebBase() + "Training3/LoginPage.html";
 
   /**
    * Gets username box.

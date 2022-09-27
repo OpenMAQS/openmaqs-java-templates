@@ -10,10 +10,15 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseSeleniumTest {
 
-  @Test
-  public void openHomePageTest() {
+  private LoginPageModel setUp() {
     LoginPageModel page = new LoginPageModel(this.getTestObject());
     page.openLoginPage();
+    return page;
+  }
+
+  @Test
+  public void openHomePageTest() {
+    LoginPageModel page = setUp();
     Assert.assertTrue(page.isPageLoaded());
   }
 
@@ -21,19 +26,17 @@ public class LoginTest extends BaseSeleniumTest {
   public void enterValidCredentialsTest() throws InterruptedException, TimeoutException, ExecutionFailedException {
     String username = "Ted";
     String password = "123";
-    LoginPageModel page = new LoginPageModel(this.getTestObject());
-    page.openLoginPage();
+    LoginPageModel page = setUp();
     HomePageModel homepage = page.loginWithValidCredentials(username, password);
     Assert.assertTrue(homepage.isPageLoaded());
-    homepage.checkURL(homepage.getTestObject().getWebDriver().getCurrentUrl());
+    homepage.checkURL();
   }
 
   @Test
   public void enterInvalidCredentials() throws InterruptedException, TimeoutException, ExecutionFailedException {
     String username = "NOT";
     String password = "Valid";
-    LoginPageModel page = new LoginPageModel(this.getTestObject());
-    page.openLoginPage();
+    LoginPageModel page = setUp();
     Assert.assertTrue(page.loginWithInvalidCredentials(username, password));
   }
 }

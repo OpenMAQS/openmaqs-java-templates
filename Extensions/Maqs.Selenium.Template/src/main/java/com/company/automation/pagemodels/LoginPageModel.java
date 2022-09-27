@@ -11,14 +11,14 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 
 /**
- * The type Login page model.
+ * The Login page model.
  */
 public class LoginPageModel extends BaseSeleniumPageModel {
 
   /**
    * The URL for the page.
    */
-  private static final String PAGE_URL = SeleniumConfig.getWebSiteBase() + "/Static/Training1/loginpage.html";
+  private static final String PAGE_URL = SeleniumConfig.getWebSiteBase() + "Training1/LoginPage.html";
 
   /**
    * Username Field Selector.

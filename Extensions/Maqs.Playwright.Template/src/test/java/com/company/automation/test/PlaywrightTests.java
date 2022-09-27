@@ -12,12 +12,22 @@ import org.testng.annotations.Test;
 public class PlaywrightTests extends BasePlaywrightTest {
 
   /**
-   * Open page test.
+   * Navigates to the Login page.
+   * @return the Login Page model
    */
-        @Test
-  public void openLoginPageTest() {
+  public LoginPageModel setUp() {
     LoginPageModel page = new LoginPageModel(this.getTestObject());
     page.openLoginPage();
+    return page;
+  }
+
+  /**
+   * Open login page test.
+   */
+  @Test
+  public void openLoginPageTest() {
+    LoginPageModel page = setUp();
+    Assert.assertTrue(page.isPageLoaded());
   }
 
   /**
@@ -27,10 +37,10 @@ public class PlaywrightTests extends BasePlaywrightTest {
   public void enterValidCredentialsTest() {
     String username = "Ted";
     String password = "123";
-    LoginPageModel page = new LoginPageModel(this.getTestObject());
-    page.openLoginPage();
+    LoginPageModel page = setUp();
     HomePageModel homepage = page.loginWithValidCredentials(username, password);
     Assert.assertTrue(homepage.isPageLoaded());
+    Assert.assertTrue(homepage.checkURL());
   }
 
   /**
@@ -40,8 +50,7 @@ public class PlaywrightTests extends BasePlaywrightTest {
   public void enterInvalidCredentials() {
     String username = "NOT";
     String password = "Valid";
-    LoginPageModel page = new LoginPageModel(this.getTestObject());
-    page.openLoginPage();
+    LoginPageModel page = setUp();
     Assert.assertTrue(page.loginWithInvalidCredentials(username, password));
   }
 }
