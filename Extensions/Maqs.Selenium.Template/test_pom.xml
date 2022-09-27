@@ -12,7 +12,7 @@
     <name>MAQS Selenium Template</name>
     <properties>
         <revision>3.0.0-SNAPSHOT</revision>
-        <selenium.version>3.141.59</selenium.version>
+        <selenium.version>4.1.1</selenium.version>
         <webdriverextensions.version>3.2.0</webdriverextensions.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseSeleniumTest {
 
   @Test
-  public void openPageTest() {
+  public void openHomePageTest() {
     LoginPageModel page = new LoginPageModel(this.getTestObject());
     page.openLoginPage();
     Assert.assertTrue(page.isPageLoaded());
@@ -25,6 +25,7 @@ public class LoginTest extends BaseSeleniumTest {
     page.openLoginPage();
     HomePageModel homepage = page.loginWithValidCredentials(username, password);
     Assert.assertTrue(homepage.isPageLoaded());
+    homepage.checkURL(homepage.getTestObject().getWebDriver().getCurrentUrl());
   }
 
   @Test
