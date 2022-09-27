@@ -31,35 +31,21 @@
         <!-- Log file path - Defaults to build location if no value is defined
         <FileLoggerPath>C:\\Frameworks\\</FileLoggerPath> -->
     </GlobalMaqs>
-    <SeleniumMaqs>
-        <!--Local browser settings
-        <Browser>Chrome</Browser>
-        <Browser>Internet Explorer</Browser>
-        <Browser>Firefox</Browser>
-        <Browser>Edge</Browser>
-        <Browser>HEADLESSCHROME</Browser>-->
-        <Browser>Chrome</Browser>
-
-        <!--Remote browser settings-->
-        <!--<Browser>REMOTE</Browser>-->
-        <RemoteBrowser>Chrome</RemoteBrowser>
-        <HubUrl>http://ondemand.saucelabs.com:80/wd/hub</HubUrl>
-        <WebSiteBase>http://magenicautomation.azurewebsites.net/</WebSiteBase>
-        <BrowserWaitTime>1000</BrowserWaitTime>
-        <BrowserTimeout>20000</BrowserTimeout>
-        <SeleniumCommandTimeout>61000</SeleniumCommandTimeout>
-
-        <!--Browser Resize settings
-        <BrowserSize>MAXIMIZE</BrowserSize>
-        <BrowserSize>DEFAULT</BrowserSize>-->
-        <BrowserSize>1024x768</BrowserSize>
-        <WebDriverHintPath>./src/test/resources/drivers</WebDriverHintPath>
-        <SoftAssertScreenshot>Yes</SoftAssertScreenshot>
-        <SavePagesourceOnFail>Yes</SavePagesourceOnFail>
-        <ImageFormat>Jpeg</ImageFormat>
-    </SeleniumMaqs>
-    <RemoteSeleniumCapsMaqs>
-        <username>Sauce_Labs_Username</username>
-        <accessKey>Sauce_Labs_Accesskey</accessKey>
-    </RemoteSeleniumCapsMaqs>
+    <DatabaseMaqs>
+        <DatabaseName>GlobalAutomation</DatabaseName>
+        <!--<DatabaseProviderType>SQL</DatabaseProviderType>
+        <DatabaseProviderType>MYSQL</DatabaseProviderType>-->
+        <DatabaseProviderType>SQL</DatabaseProviderType>
+        <DatabaseUser>sa</DatabaseUser>
+        <DatabasePassword>globalMAQS2</DatabasePassword>
+        <DatabaseConnectionString>jdbc:sqlserver://localhost</DatabaseConnectionString>
+        <EntityDirectory>./src/test/java/com/cognizantsoftvision/maqs/database/entities/</EntityDirectory>
+        <EntityPackage>com.cognizantsoftvision.maqs.database.entities</EntityPackage>
+    </DatabaseMaqs>
+    <DatabaseCaps>
+        <hibernate.archive.autodetection>class</hibernate.archive.autodetection>
+        <hibernate.show_sql>true</hibernate.show_sql>
+        <hibernate.format_sql>true</hibernate.format_sql>
+        <hibernate.hbm2ddl.auto>update</hibernate.hbm2ddl.auto>
+    </DatabaseCaps>
 </configuration>
