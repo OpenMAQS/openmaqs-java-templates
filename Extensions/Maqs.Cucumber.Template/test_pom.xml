@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
+    <groupId>io.github.maqs.archetypes</groupId>
     <artifactId>maqs-selenium</artifactId>
     <version>${revision}</version>
     <name>MAQS Cucumber Template</name>
@@ -27,7 +27,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
+            <groupId>io.github.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
             <version>3.0.0</version>
         </dependency>

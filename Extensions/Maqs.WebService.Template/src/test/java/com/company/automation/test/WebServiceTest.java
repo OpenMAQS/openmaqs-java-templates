@@ -1,8 +1,8 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.utilities.helper.TestCategories;
-import com.cognizantsoftvision.maqs.webservices.*;
-import com.company.automation.models.ProductJson;
+import io.github.maqs.utilities.helper.TestCategories;
+import io.github.maqs.webservices.*;
+import io.github.models.ProductJson;
 import java.io.IOException;
 import java.net.http.HttpResponse;
 import org.testng.Assert;

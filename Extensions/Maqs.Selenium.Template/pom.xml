@@ -5,7 +5,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
+    <groupId>io.github.maqs.archetypes</groupId>
     <artifactId>maqs-selenium-template</artifactId>
     <version>${revision}</version>
 
@@ -26,13 +26,13 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
+            <groupId>io.github.maqs.utilities</groupId>
             <artifactId>maqs-utilities</artifactId>
             <version>${maqs.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
+            <groupId>io.github.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
             <version>${maqs.version}</version>
             <scope>compile</scope>

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cognizantsoftvision.maqs.templates</groupId>
+    <groupId>io.github.maqs.templates</groupId>
     <artifactId>maqs-playwright-template</artifactId>
     <version>${revision}</version>
 
@@ -35,12 +35,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.playwright</groupId>
+            <groupId>io.github.maqs.playwright</groupId>
             <artifactId>maqs-playwright</artifactId>
             <version>${maqs.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
+            <groupId>io.github.maqs.utilities</groupId>
             <artifactId>maqs-utilities</artifactId>
             <version>${maqs.version}</version>
             <scope>compile</scope>

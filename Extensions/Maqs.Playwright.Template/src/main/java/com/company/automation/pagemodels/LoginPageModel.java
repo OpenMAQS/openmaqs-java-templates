@@ -1,9 +1,9 @@
 package com.company.automation.pagemodels;
 
-import com.cognizantsoftvision.maqs.playwright.BasePlaywrightPageModel;
-import com.cognizantsoftvision.maqs.playwright.IPlaywrightTestObject;
-import com.cognizantsoftvision.maqs.playwright.PlaywrightConfig;
-import com.cognizantsoftvision.maqs.playwright.PlaywrightSyncElement;
+import io.github.maqs.playwright.BasePlaywrightPageModel;
+import io.github.maqs.playwright.IPlaywrightTestObject;
+import io.github.maqs.playwright.PlaywrightConfig;
+import io.github.maqs.playwright.PlaywrightSyncElement;
 import org.testng.Assert;
 
 /**

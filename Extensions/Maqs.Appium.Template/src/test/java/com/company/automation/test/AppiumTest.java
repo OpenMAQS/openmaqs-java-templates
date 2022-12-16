@@ -1,9 +1,9 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.appium.AppiumConfig;
-import com.cognizantsoftvision.maqs.appium.BaseAppiumTest;
-import com.company.automation.pagemodels.LoginPageModel;
-import com.company.automation.pagemodels.MainPageModel;
+import io.github.maqs.appium.AppiumConfig;
+import io.github.maqs.appium.BaseAppiumTest;
+import io.github.pagemodels.LoginPageModel;
+import io.github.pagemodels.MainPageModel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

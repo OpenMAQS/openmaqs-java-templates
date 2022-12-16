@@ -1,6 +1,6 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.playwright.BasePlaywrightTest;
+import io.github.maqs.playwright.BasePlaywrightTest;
 import com.company.automation.pagemodels.HomePageModel;
 import com.company.automation.pagemodels.LoginPageModel;
 import org.testng.Assert;

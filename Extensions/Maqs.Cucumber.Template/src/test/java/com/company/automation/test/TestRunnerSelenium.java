@@ -1,6 +1,6 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.cucumber.BaseSeleniumCucumber;
+import io.github.maqs.cucumber.BaseSeleniumCucumber;
 import io.cucumber.testng.CucumberOptions;
 
 /**

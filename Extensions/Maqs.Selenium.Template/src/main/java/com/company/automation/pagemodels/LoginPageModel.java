@@ -1,12 +1,12 @@
 package com.company.automation.pagemodels;
 
-import com.cognizantsoftvision.maqs.selenium.BaseSeleniumPageModel;
-import com.cognizantsoftvision.maqs.selenium.ISeleniumTestObject;
-import com.cognizantsoftvision.maqs.selenium.LazyWebElement;
-import com.cognizantsoftvision.maqs.selenium.SeleniumConfig;
-import com.cognizantsoftvision.maqs.selenium.factories.UIWaitFactory;
-import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
-import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
+import io.github.maqs.selenium.BaseSeleniumPageModel;
+import io.github.maqs.selenium.ISeleniumTestObject;
+import io.github.maqs.selenium.LazyWebElement;
+import io.github.maqs.selenium.SeleniumConfig;
+import io.github.maqs.selenium.factories.UIWaitFactory;
+import io.github.maqs.utilities.helper.exceptions.ExecutionFailedException;
+import io.github.maqs.utilities.helper.exceptions.TimeoutException;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 

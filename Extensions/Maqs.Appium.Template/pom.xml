@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.cognizantsoftvision.maqs.templates</groupId>
+    <groupId>io.github.maqs.templates</groupId>
     <artifactId>maqs-appium-template</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -33,24 +33,24 @@
     
     <dependencies>
         <dependency>
-            <groupId>io.appium</groupId>
-            <artifactId>java-client</artifactId>
-            <version>${appiumjavaclient.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.cognizantsoftvision.maqs.appium</groupId>
-            <artifactId>maqs-appium</artifactId>
-            <version>${maqs.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.cognizantsoftvision.maqs.utilities</groupId>
+            <groupId>io.github.maqs.utilities</groupId>
             <artifactId>maqs-utilities</artifactId>
             <version>${maqs.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
+            <groupId>io.github.maqs.appium</groupId>
+            <artifactId>maqs-appium</artifactId>
+            <version>${maqs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
             <version>${maqs.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${appiumjavaclient.version}</version>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>

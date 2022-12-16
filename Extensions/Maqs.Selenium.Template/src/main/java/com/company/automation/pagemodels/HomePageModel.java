@@ -1,9 +1,9 @@
 package com.company.automation.pagemodels;
 
-import com.cognizantsoftvision.maqs.selenium.BaseSeleniumPageModel;
-import com.cognizantsoftvision.maqs.selenium.ISeleniumTestObject;
-import com.cognizantsoftvision.maqs.selenium.SeleniumConfig;
-import com.cognizantsoftvision.maqs.selenium.factories.UIWaitFactory;
+import io.github.maqs.selenium.BaseSeleniumPageModel;
+import io.github.maqs.selenium.ISeleniumTestObject;
+import io.github.maqs.selenium.SeleniumConfig;
+import io.github.maqs.selenium.factories.UIWaitFactory;
 import org.openqa.selenium.By;
 
 /**

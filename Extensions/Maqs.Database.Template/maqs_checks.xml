@@ -187,6 +187,6 @@
     <property name="eachLine" value="true"/>
   </module>
   <module name="Header">
-    <property name="header" value="/*\n * Copyright 2022 (C) Cognizant, All rights Reserved\n */\n"/>
+    <property name="header" value="/*\n * Copyright 2022 (C) MAQS, All rights Reserved\n */\n"/>
   </module>
 </module>

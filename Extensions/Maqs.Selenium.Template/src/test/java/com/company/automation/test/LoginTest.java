@@ -1,8 +1,8 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.selenium.BaseSeleniumTest;
-import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
-import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
+import io.github.maqs.selenium.BaseSeleniumTest;
+import io.github.maqs.utilities.helper.exceptions.ExecutionFailedException;
+import io.github.maqs.utilities.helper.exceptions.TimeoutException;
 import com.company.automation.pagemodels.HomePageModel;
 import com.company.automation.pagemodels.LoginPageModel;
 import org.testng.Assert;

@@ -5,11 +5,11 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-
-    <groupId>com.cognizantsoftvision.maqs.archetypes</groupId>
+    <groupId>io.github.maqs.archetypes</groupId>
     <artifactId>maqs-selenium</artifactId>
     <version>${revision}</version>
     <name>MAQS Selenium Template</name>
+
     <properties>
         <revision>3.0.0-SNAPSHOT</revision>
         <selenium.version>3.141.59</selenium.version>
@@ -27,7 +27,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.cognizantsoftvision.maqs.selenium</groupId>
+            <groupId>cio.github.maqs.selenium</groupId>
             <artifactId>maqs-selenium</artifactId>
             <version>3.0.0</version>
         </dependency>

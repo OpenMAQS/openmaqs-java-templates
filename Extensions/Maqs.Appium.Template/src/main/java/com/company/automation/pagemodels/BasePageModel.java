@@ -1,6 +1,6 @@
 package com.company.automation.pagemodels;
 
-import com.cognizantsoftvision.maqs.appium.AppiumTestObject;
+import io.github.maqs.appium.AppiumTestObject;
 
 /**
  * Base Page Model Class.

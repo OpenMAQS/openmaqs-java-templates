@@ -1,8 +1,8 @@
 package com.company.automation.test;
 
-import com.cognizantsoftvision.maqs.database.BaseDatabaseTest;
-import com.cognizantsoftvision.maqs.utilities.helper.exceptions.ExecutionFailedException;
-import com.cognizantsoftvision.maqs.utilities.helper.exceptions.TimeoutException;
+import io.github.maqs.database.BaseDatabaseTest;
+import io.github.maqs.utilities.helper.exceptions.ExecutionFailedException;
+import io.github.maqs.utilities.helper.exceptions.TimeoutException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
