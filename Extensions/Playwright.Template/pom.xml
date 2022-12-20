@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
+    <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.maqs.templates</groupId>
     <artifactId>maqs-playwright-template</artifactId>
     <version>${revision}</version>
@@ -13,7 +13,6 @@
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>7.6.1</testng.version>
-        <maqs.version>3</maqs.version>
         <jackson.version>2.13.4</jackson.version>
     </properties>
     
