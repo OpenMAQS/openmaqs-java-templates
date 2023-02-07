@@ -1,0 +1,18 @@
+
+2023-02-03 14:14:07.224
+INFORMATION:	Setup test object for io.github.openmaqs.playwright.PageDriverUnitTest.clickTest
+
+2023-02-03 14:14:07.962
+INFORMATION:	Driver: com.microsoft.playwright.impl.BrowserImpl@64a40280
+
+2023-02-03 14:14:08.535
+SUCCESS:	Test Passed
+
+2023-02-03 14:14:08.535
+VERBOSE:	Start dispose
+
+2023-02-03 14:14:08.535
+VERBOSE:	Start dispose driver
+
+2023-02-03 14:14:08.539
+VERBOSE:	End dispose

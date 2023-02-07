@@ -1,0 +1,37 @@
+
+2023-02-03 14:15:39.719
+INFORMATION:	Setup test object for io.github.openmaqs.playwright.PageDriverUnitTest.tapTest
+
+2023-02-03 14:15:40.343
+INFORMATION:	Driver: com.microsoft.playwright.impl.BrowserImpl@31000e60
+
+2023-02-03 14:15:40.794
+VERBOSE:	Start dispose driver
+
+2023-02-03 14:15:40.798
+VERBOSE:	Start dispose driver
+
+2023-02-03 14:15:40.799
+INFORMATION:	Driver: com.microsoft.playwright.impl.BrowserImpl@31000e60
+
+2023-02-03 14:15:41.352
+WARNING:	Failed to attach (or cleanup) Playwright test files: Error {
+  message='Must start tracing before stopping
+  name='Error
+  stack='Error: Must start tracing before stopping
+    at Tracing.stopChunk (C:\Users\Jon\AppData\Local\Temp\playwright-java-15878930400552949402\package\lib\server\trace\recorder\tracing.js:188:46)
+    at TracingDispatcher.tracingStopChunk (C:\Users\Jon\AppData\Local\Temp\playwright-java-15878930400552949402\package\lib\server\dispatchers\tracingDispatcher.js:44:28)
+    at DispatcherConnection.dispatch (C:\Users\Jon\AppData\Local\Temp\playwright-java-15878930400552949402\package\lib\server\dispatchers\dispatcher.js:317:46)
+}
+
+2023-02-03 14:15:41.353
+SUCCESS:	Test Passed
+
+2023-02-03 14:15:41.353
+VERBOSE:	Start dispose
+
+2023-02-03 14:15:41.354
+VERBOSE:	Start dispose driver
+
+2023-02-03 14:15:41.357
+VERBOSE:	End dispose

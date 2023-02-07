@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.github.openmaqs</groupId>
+    <artifactId>openmaqs-java</artifactId>
+    <version>3.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>io.github.openmaqs.playwright</groupId>
+  <artifactId>openmaqs-playwright</artifactId>
+  <version>3.0.1-SNAPSHOT</version>
+  <name>MAQS Playwright Testing Module</name>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://github.com/OpenMAQS/openmaqs-java/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <properties>
+    <playwright.version>1.29.0</playwright.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.openmaqs.base</groupId>
+      <artifactId>openmaqs-base</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.github.openmaqs.utilities</groupId>
+      <artifactId>openmaqs-utilities</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>${playwright.version}</version>
+    </dependency>
+  </dependencies>
+</project>
