@@ -1,1 +1,1 @@
-# maqs-java-templates
+# openmaqs-java-templates

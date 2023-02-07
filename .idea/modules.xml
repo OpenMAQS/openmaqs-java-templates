@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Extensions/Maqs.Appium.Template/Maqs.Appium.Template.iml" filepath="$PROJECT_DIR$/Extensions/Maqs.Appium.Template/Maqs.Appium.Template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Extensions/Maqs.Cucumber.Template/Maqs.Cucumber.Template.iml" filepath="$PROJECT_DIR$/Extensions/Maqs.Cucumber.Template/Maqs.Cucumber.Template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Extensions/Maqs.Database.Template/Maqs.Database.Template.iml" filepath="$PROJECT_DIR$/Extensions/Maqs.Database.Template/Maqs.Database.Template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Extensions/Maqs.Selenium.Template/Maqs.Selenium.Template.iml" filepath="$PROJECT_DIR$/Extensions/Maqs.Selenium.Template/Maqs.Selenium.Template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Extensions/Maqs.WebService.Template/Maqs.WebService.Template.iml" filepath="$PROJECT_DIR$/Extensions/Maqs.WebService.Template/Maqs.WebService.Template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/maqs-java-templates.iml" filepath="$PROJECT_DIR$/.idea/maqs-java-templates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Appium.Template/OpenMaqs.Appium.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Appium.Template/OpenMaqs.Appium.Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Cucumber.Template/OpenMaqs.Cucumber.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Cucumber.Template/OpenMaqs.Cucumber.Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Database.Template/OpenMaqs.Database.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Database.Template/OpenMaqs.Database.Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../openmaqs-java/openmaqs-playwright/OpenMaqs.Playwright.Template.iml" filepath="$PROJECT_DIR$/../openmaqs-java/openmaqs-playwright/OpenMaqs.Playwright.Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Selenium.Template/OpenMaqs.Selenium.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Selenium.Template/OpenMaqs.Selenium.Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.WebService.Template/OpenMaqs.WebService.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.WebService.Template/OpenMaqs.WebService.Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Playwright.Template/Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Playwright.Template/Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/openmaqs-java-templates.iml" filepath="$PROJECT_DIR$/.idea/openmaqs-java-templates.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>io.github.openmaqs.archetypes</groupId>
+    <artifactId>openmaqs-selenium</artifactId>
+    <version>${revision}</version>
+    <name>MAQS Cucumber Template</name>
+    <properties>
+        <revision>3.0.0-SNAPSHOT</revision>
+        <selenium.version>3.141.59</selenium.version>
+        <webdriverextensions.version>3.2.0</webdriverextensions.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <compiler.plugin.version>3.8.1</compiler.plugin.version>
+        <maqs.version>2.1.0</maqs.version>
+        <sonar.projectKey>InstaCode_OpenMAQS-Selenium-Archetype</sonar.projectKey>
+        <sonar.organization>instacode</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>bb3062c0bd984a6f712c378b2ab53d02cacfe741</sonar.login>
+        <sonar.coverage.jacoco.xmlReportPaths>./target/site/jacoco/jacoco.xml
+        </sonar.coverage.jacoco.xmlReportPaths>
+        <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>io.github.openmaqs.selenium</groupId>
+            <artifactId>openmaqs-selenium</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler.plugin.version}</version>
+                <configuration>
+                    <release>11</release>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.plugin.version}</version>
+                <configuration>
+                    <parallel>methods</parallel>
+                    <threadCount>6</threadCount>
+                    <argLine>${argLine}</argLine>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.github.webdriverextensions</groupId>
+                <artifactId>webdriverextensions-maven-plugin</artifactId>
+                <version>${webdriverextensions.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>install-drivers</goal>
+                        </goals>
+                        <configuration>
+                            <drivers>
+                                <driver>
+                                    <name>chromedriver</name>
+                                    <customFileName>chromedriver</customFileName>
+                                    <version>85.0.4183.83</version>
+                                </driver>
+                            </drivers>
+                        </configuration>
+                    </execution>
+                </executions>
+                <configuration>
+                    <installationDirectory>${basedir}/src/test/resources/drivers</installationDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
