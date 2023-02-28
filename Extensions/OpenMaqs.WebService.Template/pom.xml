@@ -12,7 +12,7 @@
         <maqs.version>3.0.0</maqs.version>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.web.version>5.3.23</spring.web.version>
+        <spring.web.version>6.0.0</spring.web.version>
         <testng.version>7.6.1</testng.version>
         <jackson.version>2.13.4</jackson.version>
     </properties>
