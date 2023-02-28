@@ -3,12 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>io.github.openmaqs.templates</groupId>
     <artifactId>openmaqs-webservices-template</artifactId>
     <version>${revision}</version>
 
     <properties>
-        <maqs.version>3</maqs.version>
+        <maqs.version>3.0.0</maqs.version>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.web.version>5.3.23</spring.web.version>

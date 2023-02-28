@@ -3,8 +3,8 @@ package com.company.automation.test;
 import io.github.openmaqs.selenium.BaseSeleniumTest;
 import io.github.openmaqs.utilities.helper.exceptions.ExecutionFailedException;
 import io.github.openmaqs.utilities.helper.exceptions.TimeoutException;
-import com.company.automation.pagemodels.HomePageModel;
-import com.company.automation.pagemodels.LoginPageModel;
+import com.company.automation.test.HomePageModel;
+import com.company.automation.test.LoginPageModel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

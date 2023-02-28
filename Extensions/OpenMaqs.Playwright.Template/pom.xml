@@ -4,33 +4,67 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>io.github.openmaqs</groupId>
-        <artifactId>openmaqs-java</artifactId>
-        <version>${revision}</version>
-    </parent>
-
-    <groupId>io.github.openmaqs.playwright</groupId>
-    <artifactId>Template</artifactId>
-    <name>MAQS Playwright Testing Module</name>
+    <groupId>io.github.openmaqs.archetypes</groupId>
+    <artifactId>openmaqs-playwright-template</artifactId>
     <version>${revision}</version>
 
     <properties>
+        <maqs.version>3.0.0</maqs.version>
         <playwright.version>1.29.0</playwright.version>
+        <testng.version>7.6.1</testng.version>
+        <compiler.plugin.version>3.6.1</compiler.plugin.version>
+        <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler.plugin.version}</version>
+                <configuration>
+                    <release>8</release>
+                    <encoding>UTF-8</encoding>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.plugin.version}</version>
+                <configuration>
+                    <parallel>methods</parallel>
+                    <threadCount>6</threadCount>
+                    <argLine>${argLine}</argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>io.github.openmaqs.base</groupId>
             <artifactId>openmaqs-base</artifactId>
+            <version>${maqs.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.openmaqs.utilities</groupId>
             <artifactId>openmaqs-utilities</artifactId>
+            <version>${maqs.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
+            <groupId>io.github.openmaqs.playwright</groupId>
+            <artifactId>openmaqs-playwright</artifactId>
+            <version>${maqs.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.microsoft.playwright</groupId>

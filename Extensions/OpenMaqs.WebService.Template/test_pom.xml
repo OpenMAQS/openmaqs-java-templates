@@ -13,7 +13,7 @@
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>6.14.3</testng.version>
-        <maq.version>2.1.0</maq.version>
+        <maqs.version>3.0.0</maqs.version>
     </properties>
 
     <build>
@@ -34,7 +34,7 @@
         <dependency>
             <groupId>io.github.openmaqs.webservices</groupId>
             <artifactId>openmaqs-webservices</artifactId>
-            <version>${jmaq.version}</version>
+            <version>${maqs.version}</version>
         </dependency>
     </dependencies>
 </project>

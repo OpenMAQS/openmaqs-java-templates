@@ -1,4 +1,4 @@
-package com.company.automation.pagemodels;
+package com.company.automation.test;
 
 import io.github.openmaqs.appium.AppiumTestObject;
 import org.openqa.selenium.By;
