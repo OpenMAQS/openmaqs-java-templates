@@ -11,7 +11,7 @@
     <properties>
         <maqs.version>3.0.0</maqs.version>
         <playwright.version>1.29.0</playwright.version>
-        <testng.version>7.6.1</testng.version>
+        <testng.version>7.7.0</testng.version>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
     </properties>
