@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/../openmaqs-java/openmaqs-playwright/OpenMaqs.Playwright.Template.iml" filepath="$PROJECT_DIR$/../openmaqs-java/openmaqs-playwright/OpenMaqs.Playwright.Template.iml" />
       <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Selenium.Template/OpenMaqs.Selenium.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Selenium.Template/OpenMaqs.Selenium.Template.iml" />
       <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.WebService.Template/OpenMaqs.WebService.Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.WebService.Template/OpenMaqs.WebService.Template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Extensions/OpenMaqs.Playwright.Template/Template.iml" filepath="$PROJECT_DIR$/Extensions/OpenMaqs.Playwright.Template/Template.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/openmaqs-java-templates.iml" filepath="$PROJECT_DIR$/.idea/openmaqs-java-templates.iml" />
     </modules>
   </component>
