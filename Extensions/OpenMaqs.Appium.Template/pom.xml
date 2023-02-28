@@ -11,7 +11,7 @@
     <properties>
         <compiler.plugin.version>3.6.1</compiler.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <testng.version>7.6.1</testng.version>
+        <testng.version>7.7.0</testng.version>
         <maqs.version>3.0.0-SNAPSHOT</maqs.version>
         <appiumjavaclient.version>7.0.0</appiumjavaclient.version>
     </properties>
